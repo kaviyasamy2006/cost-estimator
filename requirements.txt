@@ -1,7 +1,7 @@
+streamlit
 pandas
+openpyxl
 matplotlib
 seaborn
-rich
-termcolor
-streamlit
-openpyxl
+plotly
+numpy
