@@ -12,7 +12,7 @@ console = Console()
 # -------------------------
 # Load Hospital Dataset (path must be correct)
 # -------------------------
-file_path = "/content/dataset.xlsx"  # update path if needed
+file_path = "C:\Users\KAVIYA N\Downloads\dataset (1).xlsx"  # update path if needed
 hospital_df = pd.read_excel(file_path)
 
 # normalize column names
@@ -157,5 +157,6 @@ plt.xlabel("Hospital Type")
 plt.ylabel("Cost (₹)")
 plt.grid(True, linestyle="--", alpha=0.7)
 plt.show()
+
 
 console.print("\n🎉 [bold green]Completed![/bold green]")
