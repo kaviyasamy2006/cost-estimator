@@ -12,7 +12,7 @@ console = Console()
 # -------------------------
 # Load Hospital Dataset (path must be correct)
 # -------------------------
-file_path = "C:\Users\KAVIYA N\Downloads\dataset (1).xlsx"  # update path if needed
+file_path = "/content/dataset(1).xlsx"  # update path if needed
 hospital_df = pd.read_excel(file_path)
 
 # normalize column names
@@ -160,3 +160,4 @@ plt.show()
 
 
 console.print("\n🎉 [bold green]Completed![/bold green]")
+
