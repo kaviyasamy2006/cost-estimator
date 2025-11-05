@@ -1,0 +1,7 @@
+pandas
+matplotlib
+seaborn
+rich
+termcolor
+streamlit
+openpyxl
